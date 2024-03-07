@@ -1,0 +1,71 @@
+/*Designing of Contact Us*/
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    }
+
+header {
+    background-color: navy;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+a{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:navy;
+    font-size:30px;
+    width:fit-content;
+    padding:90px;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; /* prevent wrapping to new line */
+   
+}
+  
+.image {
+    display: inline-block; /* display as inline block to align horizontally */
+    margin-right: 20px; /* add some spacing between images */
+    text-align: center;
+}
+  
+img {
+    width: 270px;
+    height: 270px;
+    margin:10%;
+}
+h2 {
+    flex-grow: 1;
+    text-align: center;
+    color:brown;
+    margin: 0;
+}
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+}

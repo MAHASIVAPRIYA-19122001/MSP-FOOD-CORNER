@@ -1,0 +1,114 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    }
+
+header {
+    background-color: navy;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+a{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:navy;
+    font-size:30px;
+    width:fit-content;
+    padding:90px;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; /* prevent wrapping to new line */
+   
+}
+  
+.image {
+    display: inline-block; /* display as inline block to align horizontally */
+    margin-right: 20px; /* add some spacing between images */
+    text-align: center;
+}
+  
+img {
+    width: 270px;
+    height: 270px;
+    margin:10%;
+}
+h2 {
+    flex-grow: 1;
+    text-align: center;
+    color:brown;
+    margin: 0;
+}
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin-right: 25px;
+    padding:30px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 100px;
+
+  }
+  
+  .menu-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .menu-item p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .menu-item p.price {
+    color: green;
+  }
+  
+  .menu-item p.rating {
+    color: gray;
+  }
+
+  .order-now-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .order-now-button:hover {
+    background-color: #3e8e41;
+  }
+  h3{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  

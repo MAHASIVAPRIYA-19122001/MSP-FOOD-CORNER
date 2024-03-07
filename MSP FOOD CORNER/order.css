@@ -1,0 +1,81 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    background-image: url('order.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+
+header {
+    background-color: navy;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+a{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:navy;
+    font-size:30px;
+    width:fit-content;
+    padding:90px;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; /* prevent wrapping to new line */
+   
+}
+  
+.image {
+    display: inline-block; /* display as inline block to align horizontally */
+    margin-right: 20px; /* add some spacing between images */
+    text-align: center;
+}
+  
+img {
+    width: 270px;
+    height: 270px;
+    margin:10%;
+}
+h2 {
+    flex-grow: 1;
+    text-align: center;
+    color:brown;
+    margin: 0;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.center-form{
+
+    justify-content: center;
+    
+    display: flex;
+    
+    margin: 40px 50px;
+    
+    border: 3px solid black;
+    
+    padding: 30px;
+    
+    background-color:white;
+    
+    }
